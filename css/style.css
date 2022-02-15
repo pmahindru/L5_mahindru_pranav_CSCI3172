@@ -8,7 +8,7 @@ body{
     height: 100vh;
 }
 
-#style{
+form{
     width: 40%;
     margin: auto;
     padding: 5%;
@@ -20,26 +20,27 @@ button,
 label{
     color: whitesmoke;
     padding: 20px;
-    font-size: 30px;
+    font-size: 25px;
     background-color: rgb(39, 2, 65);
     text-align: center;
     box-shadow: 15px 10px 10px rgba(93, 5, 255, 0.7);
 }
 
-#showanswer{
+div{
     display: none;
     background-color: rgb(39, 2, 65);
     box-shadow: 15px 10px 10px rgba(93, 5, 255, 0.7);
     color: whitesmoke;
     text-align: center;
-    width: 50%;
+    align-items: center;
     padding: 1%;
-    margin:  5% auto auto auto;
+    margin:  5% 3% auto 5%;
+    width: 22%;
+    float: left;
 }
 
 span{
-    padding: 20px;
-    font-size: 20px;
-    margin: 25px;
-   
+    padding: 10px;
+    font-size: 18px;
+    margin: 15px;
 }

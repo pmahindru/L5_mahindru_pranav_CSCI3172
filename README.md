@@ -7,8 +7,15 @@ This is README file is taken from the brightspace, this is given by Gabriella Mo
 
 # Lab 5
 
-This is an individual Lab 5 Assignment that was done by me and I didn't take any reference other than Lab 5 documents and recordings. I made normal HTML using the input and button which calculate the prime numbers/composite number or neither.
-it will take array separated by commas and then when we press button it will calculate and show the answers in the span tag showing how many prime number and composite number and neither number in the array. I used style for the CSS to look nice and attractive. I also Used foreach loop to get numbers and check whether that number is prime/composite/neither. I am also printing in the console and on webpage as well. All is my code didn't take anything from the outside.
+This is an individual Lab 5 Assignment that was done by me and I didn't take any reference other than Lab 5 documents and recordings.
+
+I made normal HTML using the input and button inside the form which calculate the prime numbers/composite number or neither. 
+
+It will take array separated by commas and then when we press button it will calculate and show the answers in the span tag showing how many prime number and composite number and neither number in the array. 
+
+I used div tag to style for the webpage using CSS to look nice and attractive. 
+
+I also Used foreach loop, for loop, Map to find whether that number is prime/composite/neither. I am also printing in the console as well as on a webpage . All code is done by me and didn't take any reference/template from the outside.
 
 * *Date Created*: 11 02 2022
 * *Last Modification Date*: 15 02 2022
@@ -21,7 +28,7 @@ Pranav Mahindru - pranav.mahindru@dal.ca
 
 ## Built With
 
-This Lab Assignment 5 is done with some basic HTML, CSS and JS. I didn't used any template or any resources from the outside.
+This Lab Assignment 5 is done with some basic HTML, CSS and JS. I didn't used any template or any resources from the outside other than i just saw the lab 5 document and recording.
 
 ## Sources Used
 

@@ -9,12 +9,7 @@
 	This is my HTML Page
 -->
 <body>
-	<!-- 
-		:) 
-		I used div just for styling 
-		:) 
-	-->
-	<div id="style">
+	<form>
 		<label for="number"> Enter a Number</label>
 		<br>
 		<br>
@@ -23,27 +18,43 @@
 		<input type="text" name="number" id="number">
 		<br>
 		<br>
-		<br>
-		<br>
 		<button id="calculate"> Calculate </button>
-	</div>
+	</form>
 	
 	<!-- 
 		This is for the showing answers 
-		using p and span tag 
+		using div and span tag
+		div is used for styling the answer 
+		span is used for showing answers them on page 
 	-->
-	<p id="showanswer">
-		<span id="prime"></span>
+	<div id="showanswer_foreach">
+		<h4> For Each </h4>
+		<span id="prime_foreach"></span>
 		<br>
+		<span id="composite_foreach"></span>
 		<br>
-		<span id="composite"></span>
-		<br>
-		<br>
-		<span id="neither"></span>
-		<br>
-		<br>
-	</p>
+		<span id="neither_foreach"></span>
+	</div>
 
+	<div id="showanswer_forloop">
+		<h4> For Loop </h4>
+		<span id="prime_forloop"></span>
+		<br>
+		<span id="composite_forloop"></span>
+		<br>
+		<span id="neither_forloop"></span>
+	</div>
+
+	<div id="showanswer_map">
+		<h4> MAP </h4>
+		<span id="prime_map"></span>
+		<br>
+		<span id="composite_map"></span>
+		<br>
+		<span id="neither_map"></span>
+		<br>
+	</div>
+		
 	<script src="js/script.js"></script>
 </body>
 </html>
